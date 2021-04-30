@@ -1,0 +1,46 @@
+.home-a {
+  &__specials {
+    margin-top: 3rem;
+    display: grid;
+    grid-gap: 1rem;
+    // grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &__icon {
+    color: $main-color;
+    padding-bottom: 0.4rem;
+  }
+}
+
+.home-b {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    li {
+      line-height: 2;
+    }
+  }
+
+  &__title {
+    font-size: 1.5rem;
+  }
+
+  &__number {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  &__card {
+    padding: 3rem 0;
+
+    &:nth-child(odd) {
+      background-color: $light-color;
+    }
+
+    &:nth-child(even) {
+      background-color: $medium-color;
+    }
+  }
+}
