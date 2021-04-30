@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./scss/main.scss" />
+    <title>John Doe | UI/UX Designer & Photographer</title>
+  </head>
+  <body>
+    <header class="header-home">
+      <div class="container">
+        <nav class="main-nav">
+          <img src="img/logo.png" alt="My Portfolio" class="main-nav__logo" />
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a
+                href="index.html"
+                class="main-nav__link main-nav__link--current"
+                >Home</a
+              >
+            </li>
+            <li class="main-nav__item">
+              <a href="about.html" class="main-nav__link">About</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="work.html" class="main-nav__link">Work</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="contact.html" class="main-nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-home__content">
+          <h1 class="header-home__title">
+            I am John The
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["Photographer", "Designer", "UI/UX Dev"]'
+            ></span>
+          </h1>
+          <p class="lead">
+            I specialize in graphic design, UI/UX and photography
+          </p>
+          <a href="work.html" class="btn-light">View My Work</a>
+        </div>
+      </div>
+    </header>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

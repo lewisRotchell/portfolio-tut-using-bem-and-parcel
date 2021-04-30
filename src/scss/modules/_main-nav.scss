@@ -1,0 +1,36 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+
+  &__items {
+    display: flex;
+  }
+
+  &__item {
+    padding: 1rem 1.5rem;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+
+    &:hover {
+      border-color: $medium-color;
+    }
+
+    &--current {
+      border-color: $main-color;
+    }
+  }
+
+  &__logo {
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
